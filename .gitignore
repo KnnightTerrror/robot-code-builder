@@ -1,0 +1,16 @@
+# Built locally. docs/index.html is the copy that gets committed (it is the website).
+robot-code-builder.html
+.preview/
+
+# Test output (tools/test.js out, tools/pathcheck.sh out work)
+out/
+work/
+*.class
+
+# Local tools and editors
+.claude/
+.vscode/
+.idea/
+node_modules/
+.DS_Store
+Thumbs.db
